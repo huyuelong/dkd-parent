@@ -2,6 +2,7 @@ package com.dkd.manager.mapper;
 
 import java.util.List;
 import com.dkd.manager.domain.Partner;
+import com.dkd.manager.domain.vo.PartnerVo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -60,4 +61,11 @@ public interface PartnerMapper
      * @return 结果
      */
     public int deletePartnerByIds(Long[] ids);
+
+    /**
+     * 查询合作商管理列表
+     * @param partner
+     * @return PartnerVo集合
+     */
+    public List<PartnerVo> selectPartnerVoList(Partner partner);
 }

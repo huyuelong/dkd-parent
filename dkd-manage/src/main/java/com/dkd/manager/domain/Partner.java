@@ -7,7 +7,7 @@ import com.dkd.common.core.domain.BaseEntity;
 
 /**
  * 合作商管理对象 tb_partner
- * 
+ *
  * @author itheima
  * @date 2025-04-07
  */
@@ -41,66 +41,66 @@ public class Partner extends BaseEntity
     /** 密码 */
     private String password;
 
-    public void setId(Long id) 
+    public void setId(Long id)
     {
         this.id = id;
     }
 
-    public Long getId() 
+    public Long getId()
     {
         return id;
     }
-    public void setPartnerName(String partnerName) 
+    public void setPartnerName(String partnerName)
     {
         this.partnerName = partnerName;
     }
 
-    public String getPartnerName() 
+    public String getPartnerName()
     {
         return partnerName;
     }
-    public void setContactPerson(String contactPerson) 
+    public void setContactPerson(String contactPerson)
     {
         this.contactPerson = contactPerson;
     }
 
-    public String getContactPerson() 
+    public String getContactPerson()
     {
         return contactPerson;
     }
-    public void setContactPhone(String contactPhone) 
+    public void setContactPhone(String contactPhone)
     {
         this.contactPhone = contactPhone;
     }
 
-    public String getContactPhone() 
+    public String getContactPhone()
     {
         return contactPhone;
     }
-    public void setProfitRatio(Long profitRatio) 
+    public void setProfitRatio(Long profitRatio)
     {
         this.profitRatio = profitRatio;
     }
 
-    public Long getProfitRatio() 
+    public Long getProfitRatio()
     {
         return profitRatio;
     }
-    public void setAccount(String account) 
+    public void setAccount(String account)
     {
         this.account = account;
     }
 
-    public String getAccount() 
+    public String getAccount()
     {
         return account;
     }
-    public void setPassword(String password) 
+    public void setPassword(String password)
     {
         this.password = password;
     }
 
-    public String getPassword() 
+    public String getPassword()
     {
         return password;
     }
@@ -123,3 +123,5 @@ public class Partner extends BaseEntity
             .toString();
     }
 }
+
+
