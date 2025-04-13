@@ -2,6 +2,7 @@ package com.dkd.manager.mapper;
 
 import java.util.List;
 import com.dkd.manager.domain.Node;
+import com.dkd.manager.domain.vo.NodeVo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -60,4 +61,11 @@ public interface NodeMapper
      * @return 结果
      */
     public int deleteNodeByIds(Long[] ids);
+
+    /**
+     * 查询点位管理列表
+     * @param node
+     * @return NodeVo集合
+     */
+    public List<NodeVo> selectNodeVoList(Node node);
 }
